@@ -2,8 +2,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Github | GITMERGE</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Github | Conceitos Fundamentais</title>
+    <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -37,13 +37,13 @@
 
     <nav class="main-nav">
       <div class="container">
-          <a href="/index.html" class="active">Introdução</a>
-          <a href="/paginas/conceitos.html">Conceitos Fundamentais</a>
-          <a href="/paginas/conflitos.html">Conflitos</a>
-          <a href="/paginas/sobregit.html">Sobre Git</a>
-          <a href="/paginas/importancia.html">Importancia</a>
-          <a href="/paginas/colaboradores.html">Colaboradores</a>
-          <a href="/paginas/config.html">Configurações</a>
+        <a href="/index.html">Introdução</a>
+        <a href="/paginas/conceitos.html">Conceitos Fundamentais</a>
+        <a href="/paginas/conflitos.html" class="active">Conflitos</a>
+        <a href="/paginas/sobregit.html">Sobre Git</a>
+        <a href="/paginas/importancia.html">Importancia</a>
+        <a href="/paginas/colaboradores.html">Colaboradores</a>
+        <a href="/paginas/config.html">Configurações</a>
       </div>
   </nav>
 
@@ -97,10 +97,12 @@
               <h2>README</h2>
               <div class="add-readme">
                   <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" height="32" fill="currentColor"><path fill-rule="evenodd" d="M8 2a6 6 0 100 12A6 6 0 008 2zM6.5 9a.5.5 0 000 1h3a.5.5 0 000-1h-3zM8 5a.5.5 0 00-.5.5v3a.5.5 0 001 0v-3A.5.5 0 008 5z"></path></svg>
-                  <h3>O que é GIT MERGE?</h3>
-                  <p>O git merge é o processo de combinar as alterações de uma branch para outra. É como unir dois caminhos de desenvolvimento em um único histórico. Essa operação é crucial para integrar o trabalho feito em diferentes branches, seja para desenvolver novas funcionalidades ou corrigir bugs. </p>
+                  <h3>Conflitos do git Merge</h3>
+                  <p>Quando um conflito ocorre durante um git merge ou git pull (que internamente faz um merge)
+                    <br><br>Surgem quando duas branches alteram o mesmo trecho de código ou fazem mudanças incompatíveis. O git sinaliza isso com marcadores como: 
+                    <br><br> <<<<<<<< ========== >>>>>>>>>>>>>
                   </p>
-                  <p style="color: coral;">Geramente chamado de main ou master.</p>
+                  <p></p>
               </div>
           </div>
   </div>
@@ -158,5 +160,6 @@
       </ul>
   </div>
 </footer>
+
   </body>
 </html>

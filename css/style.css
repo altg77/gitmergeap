@@ -241,9 +241,7 @@
 /*  ************************** COMP ************************** */
 
 .content-grid {
-  margin-inline: 10%;
-  display: grid;
-  grid-template-columns: 1fr 300px;
+  margin-inline: 7%;
   gap: 20px;
   color: white;
 }
@@ -253,6 +251,7 @@
   border: 1px solid #30363d;
   border-radius: 6px;
   padding: 15px;
+  margin-bottom: 2%;
 }
 
 .file-list-header {
@@ -376,8 +375,14 @@
 
 .add-readme h3 {
   margin-top: 0;
-  font-size: 80px;
+  font-size: 200%;
 }
+
+.add-readme p {
+  margin-top: 4px;
+  font-size: 116%;
+}
+
 
   /*  ************************** SIDEBAR ************************** */
 
@@ -450,11 +455,13 @@
   background-color: #b07219; /* Cor típica do Java */
 }
 
+  /*  ************************** FOOTER ************************** */
+
 .site-footer {
   background-color: #161b22;
   border-top: 1px solid #30363d;
-  padding: 20px 0;
-  margin-top: 40px;
+  padding: 20px 30px;
+  margin-top: 30%;
 }
 
 .site-footer .container {
@@ -481,40 +488,6 @@
 .site-footer ul li a:hover {
   text-decoration: underline;
 }
-  
-  /*  ************************** FOOTER ************************** */
-  .site-footer {
-    background-color: #161b22;
-    border-top: 1px solid #30363d;
-    padding: 20px 50px;
-    margin-top: 40px;
-}
-
-.site-footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    color: #8b949e;
-}
-
-.site-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 15px;
-}
-
-.site-footer ul li a {
-    color: #8b949e;
-    text-decoration: none;
-}
-
-.site-footer ul li a:hover {
-    text-decoration: underline;
-}
-
 
 /*  ************************** STYLING ICONS ************************** */
 .icon-container {
