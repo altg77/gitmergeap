@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.querySelector('.file-actions input[type="text"]');
+    const searchInput = document.querySelector('.nav-container input[type="text"]');
     const readmeTitle = document.querySelector('.readme-section h3');
     const readmeParagraph = document.querySelector('.readme-section p:first-of-type');
     const highlightColor = 'coral';
