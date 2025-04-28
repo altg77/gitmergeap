@@ -379,8 +379,6 @@
   font-size: 80px;
 }
 
-
-
   /*  ************************** SIDEBAR ************************** */
 
 
@@ -517,3 +515,29 @@
     text-decoration: underline;
 }
 
+
+/*  ************************** STYLING ICONS ************************** */
+.icon-container {
+  margin: 5px 0;
+}
+
+i {
+  color: #4a515d;
+  margin-right: 5px;
+}
+
+.fa-github {
+  font-size: 2rem;
+  color: #fff;
+}
+
+section.fork {
+  display: flex;
+  align-items: center;
+}
+
+.fork-svg {
+  width: 14px;
+  margin-bottom: 20px;
+  margin-right: 6px;
+}
