@@ -384,31 +384,137 @@
 .add-readme h3 {
   margin-top: 0;
 }
+
+.sidebar {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.about-section , .releases-section, .packages-section, .languages-section{
+  margin-bottom: 10px;
+}
+
+.sidebar h3 {
+  color: #c9d1d9;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  color: #8b949e;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.sidebar .activity {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.sidebar .activity a {
+  color: #8b949e;
+}
+
+.sidebar .languages-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .languages-section li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.sidebar .language-color {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.sidebar .language-color.java {
+  background-color: #b07219; /* Cor típica do Java */
+}
+
+.site-footer {
+  background-color: #161b22;
+  border-top: 1px solid #30363d;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #8b949e;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.site-footer ul li a {
+  color: #8b949e;
+  text-decoration: none;
+}
+
+.site-footer ul li a:hover {
+  text-decoration: underline;
+}
   
-  /*  ************************** STYLING ICONS ************************** */
-  .icon-container {
-    margin: 5px 0;
-  }
-  
-  i {
-    color: #4a515d;
-    margin-right: 5px;
-  }
-  
-  .fa-github {
-    font-size: 2rem;
-    color: #fff;
-    margin-right: 1rem;
-  }
-  
-  section.fork {
+  /*  ************************** FOOTER ************************** */
+  .site-footer {
+    background-color: #161b22;
+    border-top: 1px solid #30363d;
+    padding: 20px 50px;
+    margin-top: 40px;
+}
+
+.site-footer .container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-  }
-  
-  .fork-svg {
-    width: 14px;
-    margin-bottom: 20px;
-    margin-right: 6px;
-  }
-  
+    font-size: 14px;
+    color: #8b949e;
+}
+
+.site-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.site-footer ul li a {
+    color: #8b949e;
+    text-decoration: none;
+}
+
+.site-footer ul li a:hover {
+    text-decoration: underline;
+}
+
