@@ -360,19 +360,12 @@
   background-color: #161b22;
   border: 1px solid #30363d;
   border-radius: 6px;
-  padding: 15px;
+  padding: 50px;
   margin-top: 20px;
-}
-
-.readme-section h2 {
-  color: #c9d1d9;
-  margin-top: 0;
-  margin-bottom: 15px;
 }
 
 .add-readme {
   text-align: center;
-  padding: 30px 0;
   color: #8b949e;
 }
 
@@ -383,7 +376,13 @@
 
 .add-readme h3 {
   margin-top: 0;
+  font-size: 80px;
 }
+
+
+
+  /*  ************************** SIDEBAR ************************** */
+
 
 .sidebar {
   background-color: #161b22;
